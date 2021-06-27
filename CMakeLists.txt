@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.18)
-project(libSUPLspec)
+project(SUPLspec)
 
 add_subdirectory(src)

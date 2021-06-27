@@ -1,87 +1,87 @@
 set(HEADER_LIST
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/ULP-PDU.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/UlpMessage.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLAUTHREQ.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SETNonce.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/KeyIdentity2.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLAUTHRESP.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SPCAuthKey.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/KeyIdentity3.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLEND.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLINIT.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/Notification.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/NotificationType.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/EncodingType.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/FormatIndicator.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SLPMode.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/MAC.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/KeyIdentity.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLPOS.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/PosPayLoad.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLPOSINIT.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/RequestedAssistData.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/NavigationModel.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SatelliteInfo.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SatelliteInfoElement.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLRESPONSE.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SETAuthKey.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/KeyIdentity4.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLSTART.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SETCapabilities.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/PosTechnology.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/PrefMethod.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/PosProtocol.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/Version.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SessionID.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SetSessionID.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SETId.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SlpSessionID.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/IPAddress.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/SLPAddress.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/FQDN.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/Ver.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/LocationId.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/Status.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/CellInfo.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/Position.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/PositionEstimate.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/AltitudeInfo.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/CdmaCellInformation.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/GsmCellInformation.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/WcdmaCellInformation.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/FrequencyInfo.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/FrequencyInfoFDD.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/FrequencyInfoTDD.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/UARFCN.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/NMR.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/NMRelement.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/MeasuredResultsList.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/MeasuredResults.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/CellMeasuredResultsList.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/UTRA-CarrierRSSI.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/CellMeasuredResults.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/CellParametersID.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/TGSN.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/PrimaryCCPCH-RSCP.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/TimeslotISCP.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/TimeslotISCP-List.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/PrimaryCPICH-Info.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/CPICH-Ec-N0.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/CPICH-RSCP.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/Pathloss.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/StatusCode.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/QoP.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/Velocity.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/Horvel.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/Horandvervel.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/Horveluncert.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/Horandveruncert.h
-        ${libSUPLspec_SOURCE_DIR}/include/libSUPLspec/PosMethod.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/ULP-PDU.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/UlpMessage.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLAUTHREQ.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SETNonce.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/KeyIdentity2.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLAUTHRESP.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SPCAuthKey.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/KeyIdentity3.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLEND.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLINIT.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/Notification.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/NotificationType.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/EncodingType.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/FormatIndicator.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SLPMode.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/MAC.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/KeyIdentity.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLPOS.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/PosPayLoad.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLPOSINIT.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/RequestedAssistData.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/NavigationModel.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SatelliteInfo.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SatelliteInfoElement.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLRESPONSE.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SETAuthKey.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/KeyIdentity4.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SUPLSTART.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SETCapabilities.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/PosTechnology.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/PrefMethod.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/PosProtocol.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/Version.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SessionID.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SetSessionID.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SETId.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SlpSessionID.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/IPAddress.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/SLPAddress.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/FQDN.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/Ver.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/LocationId.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/Status.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/CellInfo.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/Position.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/PositionEstimate.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/AltitudeInfo.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/CdmaCellInformation.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/GsmCellInformation.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/WcdmaCellInformation.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/FrequencyInfo.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/FrequencyInfoFDD.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/FrequencyInfoTDD.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/UARFCN.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/NMR.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/NMRelement.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/MeasuredResultsList.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/MeasuredResults.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/CellMeasuredResultsList.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/UTRA-CarrierRSSI.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/CellMeasuredResults.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/CellParametersID.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/TGSN.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/PrimaryCCPCH-RSCP.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/TimeslotISCP.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/TimeslotISCP-List.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/PrimaryCPICH-Info.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/CPICH-Ec-N0.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/CPICH-RSCP.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/Pathloss.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/StatusCode.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/QoP.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/Velocity.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/Horvel.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/Horandvervel.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/Horveluncert.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/Horandveruncert.h
+        ${SUPLspec_SOURCE_DIR}/include/libSUPLspec/PosMethod.h
         )
 
 
 # Make an automatic library - will be static or dynamic based on user setting
-add_library(libSUPLspec
+add_library(SUPLspec
         ULP-PDU.c
         UlpMessage.c
         SUPLAUTHREQ.c
@@ -162,10 +162,10 @@ add_library(libSUPLspec
         PosMethod.c
         )
 
-target_include_directories(libSUPLspec PUBLIC ../include/libSUPLspecs)
+target_include_directories(SUPLspec PUBLIC ../include/libSUPLspecs)
 
 # All users of this library will need at least C++11
-target_compile_features(libSUPLspec PUBLIC cxx_std_11)
+target_compile_features(SUPLspec PUBLIC cxx_std_11)
 
 # IDEs should put the headers in a nice place
 source_group(
